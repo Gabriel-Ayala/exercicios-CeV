@@ -1,12 +1,12 @@
 =begin
 Desafio 021
 
-Problema: Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
+Problema: Faça um programa que abra e reproduza o áudio de um arquivo MP3.
 
 Resolução do problema:
 =end
 
-musica = "musica.mp3" #coloque o caminho da sua musica aqui
+musica = "../assets/audio/021.mp3" #coloque o caminho da sua musica aqui
 
 system("start #{musica}")
 
